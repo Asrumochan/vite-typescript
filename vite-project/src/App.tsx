@@ -27,6 +27,12 @@ function App() {
   const increaseCount = () : void => {
     setCount(prev => prev+1)
   }
+  const decreaseCount=() :void =>{
+    if (count > 0){
+
+      setCount(prev => prev-1)
+    }
+  }
   return (
     <div>
       {"Name : "+ name} <br />
@@ -38,6 +44,7 @@ function App() {
       <CustomComponent height={person.height}/>
       <br />
       <button onClick={() => increaseCount()}>Increase</button>
+      <button onClick={() => decreaseCount()}>Decrease</button>
       <h4>Count : {count}</h4>
     </div>
   )
