@@ -1,9 +1,19 @@
-import Table from './components/table';
+import Api from './components/photos';
+import Post from './components/post';
 function App() {
 
   return (
     <>
-       <Table/>
+      <div className='container'>
+        <div className='pics'>
+       <Api/>
+        </div>
+        
+        <div className='pics'>
+       <Post/>
+        </div>
+
+      </div>
     </>
   )
 }

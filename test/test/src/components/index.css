@@ -1,0 +1,7 @@
+.pics{
+    height: 90vh;
+    width:50%
+}
+.container{
+    display: flex;
+}
