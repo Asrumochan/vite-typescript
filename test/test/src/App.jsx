@@ -8,7 +8,6 @@ function App() {
         <div className='pics'>
        <Api/>
         </div>
-        
         <div className='pics'>
        <Post/>
         </div>
